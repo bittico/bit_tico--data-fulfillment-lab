@@ -1,53 +1,25 @@
-# bit_tico-data-fulfillment-lab
+# Raw Data
 
-# Data Fulfillment & Quality Assurance Lab
+This project uses the Brazilian E-Commerce Public Dataset by Olist.
 
-## Overview
+Dataset source:
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
-This project demonstrates data processing, quality assurance (QA), SQL querying, data validation, and documentation practices using SQL Server, Python, and Linux.
+The original source files are intentionally not stored in this repository due to their size.
 
-The objective is to simulate a real-world data operations workflow from raw data ingestion to validation, transformation, and delivery.
+The datasets are maintained locally and imported into SQL Server for data processing, validation, quality assurance, and reporting activities.
 
-## Technologies
+Main datasets used:
 
-* SQL Server
-* SQL Server Management Studio (SSMS)
-* Python
-* Pandas
-* GitHub
-* Linux
-* Bash
+- customers.csv
+- orders.csv
+- order_payments.csv
 
-## Dataset
+Project activities include:
 
-Brazilian E-Commerce Public Dataset by Olist.
-
-## Project Structure
-
-data/
-
-* raw
-* processed
-* exports
-
-sql/
-
-* SQL queries and scripts
-
-scripts/
-
-* Python automation and QA scripts
-
-docs/
-
-* Documentation, data dictionary, and reports
-
-## Project Goals
-
-* Import relational datasets into SQL Server
-* Create and document database structures
-* Perform data quality validation
-* Create data dictionaries
-* Execute SQL queries and joins
-* Export datasets using different encoding standards
-* Document project workflows
+- Data ingestion
+- SQL querying
+- Data quality validation
+- Dataset documentation
+- File encoding exercises
+- Reporting and exports
